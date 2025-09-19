@@ -1,0 +1,91 @@
+.image, .navigation{
+  overflow: hidden;
+}
+.image{
+  float: left;
+  width: 70%;
+  height: 57px;
+  background-color: white;
+  border-bottom: 1px solid rgba(182, 178, 178, 0.5);
+
+}
+.navigation{
+  float: right;
+  width: 30%;
+  height: 42px;
+  color: black;
+  background-color: white;
+  border-bottom: 1px solid rgba(182, 178, 178, 0.5);
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+  color: black;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+}
+h1{
+  width: 100%;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  margin-top : 5px;
+}
+.heading1{
+  width: 100%;
+  color: blue;
+}
+p{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  margin-top : 5px;
+}
+.picture{
+  margin: auto;
+  width: auto;
+  height: auto;
+  margin-top: 20px;
+  overflow: hidden ;
+  text-align: center;
+}
+.contianer{
+  overflow: hidden;
+}
+.item1{
+color: rgb(193, 89, 89);
+padding-top: 13px;
+}
+.blog_left{
+  float: left;
+  height: 150px;
+  width: 49%;
+  background-color: white;
+  text-align: right;
+  margin: 0;
+  padding-right: 1%;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.blog_right{
+  float: right;
+  height: 150px;
+  width: 49%;
+  color: rgb(42, 31, 69);
+  background-color: white;
+  text-align: left;
+  margin: 0;
+  padding-left: 1%;
+  font-size: 21px;
+  font-family: sans-serif;
+}
+.footer{
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background-color: rgba(243, 73, 73, 0.461);
+  color: white;
+  text-align: center;
+}
